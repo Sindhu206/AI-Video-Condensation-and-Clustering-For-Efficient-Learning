@@ -1,0 +1,8 @@
+{
+  "python.defaultInterpreterPath": "C:\\Users\\SAMEEKSHA SHETTY\\AppData\\Local\\Python\\bin\\python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}",
+    "${workspaceFolder}/core"
+  ],
+  "python.terminal.activateEnvironment": true
+}

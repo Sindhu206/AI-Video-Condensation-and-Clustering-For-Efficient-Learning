@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ClipCluster - Start Web Application",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/app.py",
+      "console": "integratedTerminal",
+      "jinja": true,
+      "env": {
+        "FLASK_DEBUG": "1"
+      }
+    },
+    {
+      "name": "ClipCluster - Run Test Suite",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/test_suite.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
